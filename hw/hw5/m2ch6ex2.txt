@@ -1,0 +1,13 @@
+What is the output of the following program?
+
+    import math
+
+    def f(x):
+        return x*x*x
+
+    t=(math.sin , math.sqrt , lambda x: x+1, f)
+
+    for g in t :
+        print g(1.0)
+
+помилка, бо забули дужки після print

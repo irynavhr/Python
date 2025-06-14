@@ -1,0 +1,59 @@
+(a) returns the first power of 3in a tuple.
+    
+    def f(t):
+        for x in t :
+            if x%3 == 0:
+                break
+incorrect,  ц€ функц≥€ н≥чого не повертаЇ
+
+
+(b) returns all powers of 3in a tuple.
+    def f(t):
+        for x in t :
+            if x%3 == 0:
+                return x
+incorrect,  ц€ функц≥€ повертаЇ перше знайдене значенн€, що д≥литьс€ на 3 нац≥ло
+
+
+(c) a function that takes a number argument and returns С+Т when the argument
+is positive, and С-Т if the argument is negative.
+    def posneg(x):
+        if x>0:
+            return С+Т
+        else :
+            return С-Т
+incorrect, бо функц≥€ поверне '-', коли х = 0
+
+
+(d) a function that takes a number argument and returns С+Т if the argument is
+positive, С-Т if the argument is negative, and Т0Т otherwise.
+    def posneg(x):
+        if x>0:
+            return С+Т
+        if x<0:
+            return С-Т
+        return С0Т
+correct
+
+
+(e) a function that takes a number argument x and returns СAТ if x > 10, СBТ if
+0 ? x ? 10, and СCТ if x < 0.
+    def f(x):
+        if x>10:
+            return СAТ
+        if x>=0:
+            return СBТ
+        return СCТ
+correct
+
+
+(f) a function that takes a number argument x and returns СAТ if x > 10, СBТ if
+0 ? x ? 10, and СCТ if x < 0.
+    def f(x):
+        if x<0:
+            return СCТ
+        if x>=0:
+            return СBТ
+        if x>10:
+            return СAТ
+incorrect, бо функц≥€ н≥коли не поверне 'ј'
